@@ -22,6 +22,8 @@ document.onclick = function(e){
   if (!menu_icon.contains(e.target)) {
     document.getElementById("nav-links").style.right = "-65vw";
     open = false;
+      menu_icon.classList.toggle("active-menu-icon");
+
   }
 }
 
