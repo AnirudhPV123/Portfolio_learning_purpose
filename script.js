@@ -27,7 +27,6 @@ document.onclick = function(e){
     open = false;
   }
 }
-
 // navbar end
 
 
